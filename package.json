@@ -6,7 +6,7 @@
   "author": "Leonardo Ferreira <leonardoferreira-dev@outlook.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/leonardoferreira-dev/react-native-calculator-mv"
+    "url": "git+https://github.com/leonardoferreira-dev/react-native-calculator-mv.git"
   },
   "typings": "typings/index.d.ts",
   "files": [
@@ -14,11 +14,7 @@
     "typings"
   ],
   "scripts": {
-    "prepare": "npm run build",
-    "lint": "tslint 'src/**/*.ts{,x}'",
-    "test": "npm run lint && jest",
-    "compile": "tsc -d --declarationDir ./typings",
-    "build": "rm -rf dist && rm -rf typings && npm run compile && prettier ./typings/**/*.d.ts --write"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "react",
@@ -88,5 +84,10 @@
   "prettier": {
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/leonardoferreira-dev/react-native-calculator-mv/issues"
+  },
+  "homepage": "https://github.com/leonardoferreira-dev/react-native-calculator-mv#readme",
+  "dependencies": {}
 }
