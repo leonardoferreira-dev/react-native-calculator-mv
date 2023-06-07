@@ -10,20 +10,14 @@ Simple react native calculator and calculator input component.
 Using npm:
 
 ```
-npm i -S react-native-calculator
+npm i -S react-native-calculator-mv
 ```
 
 or yarn:
 
 ```
-yarn add react-native-calculator
+yarn add react-native-calculator-mv
 ```
-
-## Demo
-
-<a href="https://snack.expo.io/@budiadiono/react-native-calculator-example" target="_blank">
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=exp://expo.io/@budiadiono/react-native-calculator-example">
-</a>
 
 ## Calculator Component
 
@@ -34,7 +28,7 @@ yarn add react-native-calculator
 ```javascript
 import React from 'react'
 import { View } from 'react-native'
-import { Calculator } from 'react-native-calculator'
+import { Calculator } from 'react-native-calculator-mv'
 
 export default class App extends React.Component {
   render() {
@@ -68,7 +62,7 @@ All props in [common props](#common-props) and...
 ```javascript
 import React from 'react'
 import { View } from 'react-native'
-import { CalculatorInput } from 'react-native-calculator'
+import { CalculatorInput } from 'react-native-calculator-mv'
 
 export default class App extends React.Component {
   render() {
